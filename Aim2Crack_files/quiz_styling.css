@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fbfbfb;
+    font-family: 'Open Sans', sans-serif;
+    color: #333e48;
+}
+
+.topic-title {
+   color: white;
+   background: linear-gradient(316deg, #2a2323 60%, #50d8d7 130%);
+   padding: 75px 0px;
+   width: 100%;
+}
+
+.topic-title h1 {
+   text-align: center;
+   font-size: 44px;
+   font-weight: 600;
+   line-height: 52px;
+}
+
+.topic-title p {
+   text-align: center;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 28px;
+   margin-top: 28px;
+}
+
+.description-content {
+   width: 60%;
+   padding: 16px;
+   margin: 0 auto 50px auto;
+   font-size: 17.3px;
+   line-height: 32px;
+   font-weight: 500;
+}
+
+.description {
+   margin: 32px auto 64px auto;
+}
+
+.description h2 {
+   display: inline-block;
+   border: 2px solid;
+   border-radius: 50px;
+   border-color: # #0e3f3f;
+   color: white;
+   background: linear-gradient(316deg, #2a2323 60%, #50d8d7 130%);
+   margin: 16px auto;
+   font-size: 25px;
+   padding: 6px 18px;
+   text-align: center;
+}
+.description p {
+   margin-bottom: 16px;
+}
+.description h4 {
+   font-weight: 700;
+}
+
+.formulas {
+   margin: 32px auto 64px auto;
+}
+
+.formulas h2 {
+   display: inline-block;
+   border: 2px solid;
+   border-radius: 50px;
+   border-color: # #0e3f3f;
+   color: white;
+   background: linear-gradient(316deg, #2a2323 60%, #50d8d7 130%);
+   margin: 16px auto;
+   font-size: 25px;
+   padding: 6px 18px;
+   text-align: center;
+}
+
+.formulas p {
+   font-weight: 700;
+}
+
+ol {
+  padding-left: 25px;
+  counter-reset:item;
+}
+
+ol>li {
+  margin:0;
+  padding:0 0 0 2em;
+  text-indent:-2em;
+  list-style-type:none;
+  counter-increment:item;
+}
+
+ol>li:before {
+  display:inline-block;
+  width:1.5em;
+  padding-right:0.5em;
+  font-weight:700;
+  text-align:right;
+  content:counter(item) ".";
+}
+
+.equation {
+   font-weight: 700;
+   margin: 20px 35px 20px 0;
+   text-align: center;
+   padding: 10px;
+   background-color: #2cebeb82;
+   border-radius: 8px;
+   border: 2px solid;
+   border-color: #627384;
+}
+
+.example-ques {
+   padding: 32px;
+   border-radius: 9px;
+   box-shadow: 6px 5px 13px 0 #888888;
+}
+
+.equation h4 {
+   font-weight: 700;
+}
+
+.equation-eg {
+   text-align: center;
+   margin: 16px;
+   font-weight: 600;
+}
